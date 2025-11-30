@@ -1,6 +1,8 @@
 import type { LocaleObject } from '@nuxtjs/i18n'
 
-const locales: LocaleObject[] = [
+type MutableLocale = Omit<LocaleObject, 'code'> & { code: string }
+
+const locales: MutableLocale[] = [
   {
     code: 'en-US',
     file: 'en-US.json',
@@ -37,16 +39,20 @@ const locales: LocaleObject[] = [
     name: 'Deutsch',
     emoji: '🇩🇪',
   },
+  {
+    code: 'tr-TR',
+    file: 'tr-TR.json',
+    name: 'Türkçe',
+    emoji: '🇹🇷',
+  },
 ]
 
 function buildLocales() {
   const useLocales = Object.values(locales).reduce((acc, data) => {
     acc.push(data)
-
     return acc
-  }, <LocaleObject[]>[])
-
-  return useLocales.sort((a, b) => a.code.localeCompare(b.code))
+  }, <MutableLocale[]>[])
+  return useLocales.sort((a, b) => a.code.localeCompare(b.code)) as LocaleObject[]
 }
 
 export const currentLocales = buildLocales()
