@@ -88,16 +88,6 @@ const { title, github } = useAppConfig()
                 md:flex-row md:items-center md:py-0
               "
             >
-              <a
-                class="
-                  mr-0 w-full cursor-pointer px-6 py-2 text-gray-700
-                  md:mr-2 md:w-auto md:px-3
-                  lg:mr-3
-                  dark:text-gray-300
-                "
-                href="/dashboard"
-                :title="`${title} Dashboard`"
-              >{{ $t('dashboard.title') }}</a>
 
               <SwitchLanguage />
 

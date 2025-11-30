@@ -1,0 +1,180 @@
+{
+  "common": {
+    "i18n": "Çoklu Dil",
+    "abbreviations": "Tr",
+    "current_language": "Türkçe",
+    "try_again": "Tekrar dene",
+    "cancel": "İptal",
+    "continue": "Devam",
+    "close": "Kapat",
+    "save": "Kaydet",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "delete_success": "Silme başarılı!",
+    "search": "Ara"
+  },
+  "theme": {
+    "toggle": "Temayı değiştir",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
+  },
+  "login": {
+    "title": "Giriş",
+    "description": "Giriş yapmak için site tokenınızı girin",
+    "tips": "İpuçları",
+    "preview_token": "Önizleme modu için site tokeni",
+    "submit": "Giriş Yap",
+    "failed": "Giriş başarısız, lütfen tekrar deneyin"
+  },
+  "logout": {
+    "title": "Çıkış Yap?",
+    "confirm": "Çıkış yapmak istediğinizden emin misiniz?",
+    "action": "Çıkış Yap"
+  },
+  "layouts": {
+    "footer": {
+      "copyright": "HTML.ZONE Ürünleri",
+      "social": {
+        "email": "E-posta",
+        "telegram": "Telegram",
+        "blog": "Blog",
+        "twitter": "Twitter",
+        "mastodon": "Mastodon",
+        "github": "GitHub"
+      }
+    },
+    "header": {
+      "select_language": "Dil Seçin"
+    }
+  },
+  "nav": {
+    "links": "Bağlantılar",
+    "analysis": "Analiz",
+    "realtime": "Anlık"
+  },
+  "home": {
+    "features": {
+      "title": "Özellikler",
+      "subtitle": "Basit ve yeterli işlevsellik",
+      "url_shortening": {
+        "title": "URL Kısaltma",
+        "description": "URL'lerinizi minimum uzunluğa sıkıştırın"
+      },
+      "analytics": {
+        "title": "Analitik",
+        "description": "Bağlantı analitiğini izleyin ve anlamlı istatistikler toplayın"
+      },
+      "serverless": {
+        "title": "Sunucusuz",
+        "description": "Geleneksel sunuculara ihtiyaç duymadan dağıtın"
+      },
+      "customizable_slug": {
+        "title": "Özelleştirilebilir Slug",
+        "description": "Kişiselleştirilmiş slug'lar ve büyük/küçük harf duyarlılığı desteği"
+      },
+      "ai_slug": {
+        "title": "AI Slug",
+        "description": "Slug oluşturmak için yapay zekadan yararlanın"
+      },
+      "link_expiration": {
+        "title": "Bağlantı Sona Erme",
+        "description": "Bağlantılarınız için son kullanma tarihleri belirleyin"
+      }
+    },
+    "cta": {
+      "title": "Hemen dağıtın",
+      "description": "Sadece birkaç basit tıklama ile hiçbir masraf olmadan dağıtıma başlayabilirsiniz",
+      "button": "Dağıtmaya Başla"
+    },
+    "logos": {
+      "title": "Harika teknolojilerle inşa edildi"
+    },
+    "twitter": {
+      "follow": "X'te (Twitter) takip edin"
+    }
+  },
+  "dashboard": {
+    "title": "Kontrol Paneli",
+    "visits": "Ziyaretler",
+    "views": "Görüntüleme",
+    "visitors": "Ziyaretçiler",
+    "referers": "Yönlendirenler",
+    "stats": " İstatistikleri",
+    "custom_date": "Özel Tarih",
+    "date": "Tarih",
+    "date_range": "Tarih Aralığı",
+    "locations": "Konumlar",
+    "details": "Detaylar",
+    "name": "Ad",
+    "count": "Sayı",
+    "loading": "Yükleniyor",
+    "no_data": "Veri Yok",
+    "none": "(Yok)",
+    "filter_placeholder": "Bağlantıları filtrele...",
+    "date_picker": {
+      "today": "Bugün",
+      "last_24h": "Son 24 saat",
+      "this_week": "Bu hafta",
+      "last_7d": "Son 7 gün",
+      "this_month": "Bu ay",
+      "last_30d": "Son 30 gün",
+      "last_90d": "Son 90 gün",
+      "custom": "Özel",
+      "custom_title": "Özel Tarih",
+      "single_date": "Tarih",
+      "date_range": "Tarih Aralığı"
+    },
+    "metrics": {
+      "country": "Ülke",
+      "region": "Bölge",
+      "city": "Şehir",
+      "referer": "Yönlendiren",
+      "slug": "Slug",
+      "language": "Dil",
+      "timezone": "Saat Dilimi",
+      "device": "Cihaz",
+      "deviceType": "Cihaz Tipi",
+      "os": "İşletim Sistemi",
+      "browser": "Tarayıcı",
+      "browserType": "Tarayıcı Tipi"
+    },
+    "time_picker": {
+      "today": "Bugün",
+      "last_5m": "Son 5 dakika",
+      "last_10m": "Son 10 dakika",
+      "last_30m": "Son 30 dakika",
+      "last_1h": "Son 1 saat",
+      "last_6h": "Son 6 saat",
+      "last_12h": "Son 12 saat",
+      "last_24h": "Son 24 saat"
+    }
+  },
+  "links": {
+    "create": "Bağlantı Oluştur",
+    "edit": "Bağlantıyı Düzenle",
+    "delete_confirm_title": "Kesinlikle emin misiniz?",
+    "delete_confirm_desc": "Bu işlem geri alınamaz. Bağlantınızı sunuculardan gerçekten silecektir.",
+    "delete_success": "Silme başarılı!",
+    "update_success": "Bağlantı başarıyla güncellendi",
+    "create_success": "Bağlantı başarıyla oluşturuldu",
+    "preview_mode_tip": "Önizleme modu bağlantısı en fazla 5 dakika geçerlidir.",
+    "search_placeholder": "Bağlantı ara...",
+    "no_results": "Bağlantı bulunamadı.",
+    "group_title": "Bağlantılar",
+    "copy_success": "Kopyalama başarılı!",
+    "created_at": "Oluşturulma Tarihi",
+    "updated_at": "Güncellenme Tarihi",
+    "expires_at": "Son Kullanma Tarihi",
+    "no_more": "Başka bağlantı yok",
+    "load_failed": "Bağlantılar yüklenemedi,",
+    "download_qr_code": "QR Kodu İndir",
+    "sort": {
+      "newest": "Önce En Yeni",
+      "oldest": "Önce En Eski",
+      "az": "Slug A-Z",
+      "za": "Slug Z-A",
+      "tip": "Deneyim: Sadece yüklenmiş bağlantılar için"
+    }
+  }
+}
