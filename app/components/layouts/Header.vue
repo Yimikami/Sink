@@ -19,7 +19,7 @@ const { title, github } = useAppConfig()
       >
         <div class="flex h-full w-1/4 items-center justify-start pr-4">
           <a
-            href="/"
+            href="/dashboard"
             :title="title"
             class="
               flex items-center space-x-2 py-4 text-xl font-black text-gray-900
@@ -58,7 +58,7 @@ const { title, github } = useAppConfig()
             "
           >
             <a
-              href="/"
+              href="/dashboard"
               :title="title"
               class="
                 inline-flex h-16 w-auto items-center px-4 text-xl leading-none
@@ -98,23 +98,6 @@ const { title, github } = useAppConfig()
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >{{ $t('dashboard.title') }}</a>
-              <a
-                :href="github"
-                target="_blank"
-                title="Github"
-                class="
-                  mr-2 inline-flex w-full items-center bg-gray-900 px-6 py-3
-                  text-sm leading-4 font-medium text-white
-                  hover:bg-gray-800
-                  focus:ring-0 focus:ring-gray-800 focus:ring-offset-2
-                  focus:outline-hidden
-                  md:w-auto md:rounded-full md:px-3 md:focus:ring-2
-                "
-              >
-                <GitHubIcon
-                  class="mr-1 h-5 w-5"
-                />
-                GitHub</a>
 
               <SwitchLanguage />
 

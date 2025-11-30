@@ -1,9 +1,7 @@
+<script setup>
+navigateTo('/dashboard', { replace: true })
+</script>
+
 <template>
-  <main class="flex flex-col justify-center">
-    <HomeTwitter />
-    <HomeHero />
-    <HomeFeatures />
-    <HomeLogos />
-    <HomeCta />
-  </main>
+  <div />
 </template>
